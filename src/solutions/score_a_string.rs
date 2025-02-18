@@ -3,7 +3,7 @@ pub fn score_of_string(s: String) -> i32 {
     let mut score = 0;
     for i in 0..cs.len() - 1 {
         let a = cs[i];
-        let b = cs[i+1];
+        let b = cs[i + 1];
         score += (a - b).abs();
     }
     score
